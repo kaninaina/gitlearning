@@ -9,7 +9,7 @@ function App() {
   let cleimt = new QueryClient();
   let b = AdduserDataFetcher();
 
-  return <QueryClientProvider client={cleimt}></QueryClientProvider>;
+  return <></>
 }
 
 export default App;
