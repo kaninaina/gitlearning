@@ -8,7 +8,7 @@ import { AdduserDataFetcher } from "./Context/Contex";
 function App() {
   let cleimt = new QueryClient();
   let b = AdduserDataFetcher();
-  console.log(b);
+
   return <QueryClientProvider client={cleimt}></QueryClientProvider>;
 }
 
